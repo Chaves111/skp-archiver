@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets & local environment
+.env
+.env.local
+*.secret
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# SketchUp backups & temp files
+*.skb
+*.skp.lock
+~$*
+
+# Local archive runtime logs
+archive.log
+
+# Local copies of the index/progress (regenerated on each run)
+# Uncomment if you prefer not to version these:
+# 06_3D_Models_Visuals/SketchUp/skp_project_index.json
+# 06_3D_Models_Visuals/SketchUp/progress.md
